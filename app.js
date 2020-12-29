@@ -32,3 +32,4 @@ var txt = ""
 var cc = 0;
 new_arr.forEach(value => txt = txt + cc++ + ": " + value + "<br>" );
 document.getElementById("demo").innerHTML = txt;
+//new comment
