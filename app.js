@@ -1,14 +1,14 @@
-var numbers = [37, 54, 32, 45, 21, 69, 20];
+var numbers = [0,37, 38, 32, 45, 21, 69, 20];
 var counter = 0;
 function fetching(name){
   return document.getElementById(name);
 }
-var text = "Noah William Oliver Addilyn, Adley, Alisa, Alora, Analia, Aria, Armelle, Aviana William Elijah James Benjamin Lucas Mason Ethan Alexander Henry Jacob Michael Daniel Logan Jackson Sebastian Jack Aiden Owen Samuel Matthew Joseph Levi Mateo David John Wyatt Carter Julian";
+var text = "Mohammed Noah William Oliver Addilyn, Adley, Alisa, Alora, Analia, Aria, Armelle, Aviana William Elijah James Benjamin Lucas Mason Ethan Alexander Henry Jacob Michael Daniel Logan Jackson Sebastian Jack Aiden Owen Samuel Matthew Joseph Levi Mateo David John Wyatt Carter Julian";
 var new_arr = text.split(" ");
 var names = fetching("names");
 function generateNumber(index) {
   var arr_rand = Math.floor(Math.random() * numbers.length);
-  var rand = Math.floor(Math.random() * 29);
+  var rand = Math.floor(Math.random() * 39);
   var desired = rand;
   var wanted = new_arr[desired];
   var duration = 2000;
